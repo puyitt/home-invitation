@@ -8,7 +8,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     animation: slideshow 40s infinite;
@@ -24,16 +24,16 @@ img {
 }
 
 @keyframes slideshow {
-  0% { background-image: url('../assets/img1_9.png'); }
-  11% { background-image: url('../assets/img1_1.png'); }
+  0% { background-image: url('../assets/img1_9.jpg'); }
+  11% { background-image: url('../assets/img1_1.jpg'); }
   22% { background-image: url('../assets/img1_2.png'); }
-  33% { background-image: url('../assets/img1_3.png'); }
-  44% { background-image: url('../assets/img1_4.png'); }
-  55% { background-image: url('../assets/img1_5.png'); }
-  66% { background-image: url('../assets/img1_6.png'); }
-  77% { background-image: url('../assets/img1_7.png'); }
-  88% { background-image: url('../assets/img1_8.png'); }
-  100% { background-image: url('../assets/img1_9.png'); }
+  33% { background-image: url('../assets/img1_3.jpg'); }
+  44% { background-image: url('../assets/img1_4.jpg'); }
+  55% { background-image: url('../assets/img1_5.jpg'); }
+  66% { background-image: url('../assets/img1_6.jpg'); }
+  77% { background-image: url('../assets/img1_7.jpg'); }
+  88% { background-image: url('../assets/img1_8.jpg'); }
+  100% { background-image: url('../assets/img1_9.jpg'); }
 }
 
 #envelope {
