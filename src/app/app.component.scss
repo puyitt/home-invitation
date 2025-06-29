@@ -68,15 +68,15 @@ img {
     border-left: 140px solid transparent;
     border-right: 140px solid transparent;
     border-bottom: 82px solid transparent;
-    border-top: 98px solid darkgreen;
+    border-top: 98px solid #e3d7ba;
     transform-origin: top;
     pointer-events: none;
 }
 
 .pocket {
-    border-left: 140px solid yellow;
-    border-right: 140px solid yellow;
-    border-bottom: 90px solid darkgreen;
+    border-left: 140px solid #c7af80;
+    border-right: 140px solid #c7af80;
+    border-bottom: 90px solid #e3d7ba;
     border-top: 90px solid transparent;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
@@ -351,27 +351,6 @@ $speed: 2.2s;
   }
 }
 
-.qr {
-  position: absolute;
-    left: 50%;
-    top: 65%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: column;
-
-    p {
-      font-size: 11px;
-      color: #c4c4c4;
-      margin-bottom: 0;
-    }
-
-    img {
-      width: 80px;
-    }
-}
 @media screen and (max-width: 720px) {
   .hand {
       width: 50px;
@@ -393,19 +372,19 @@ $speed: 2.2s;
       }
 
       .flap {
-          border-left: 70px solid transparent;
-          border-right: 70px solid transparent;
-          border-bottom: 41px solid transparent;
-          border-top: 49px solid #c5c5c5;
+          border-left-width: 70px;
+          border-right-width: 70px;
+          border-bottom-width: 41px;
+          border-top-width: 49px;
           transform-origin: top;
           pointer-events: none;
       }
       
       .pocket {
-          border-left: 70px solid #fefefe;
-          border-right: 70px solid #fefefe;
-          border-bottom: 45px solid #e7e7e7;
-          border-top: 45px solid transparent;
+          border-left-width: 70px;
+          border-right-width: 70px;
+          border-bottom-width: 45px;
+          border-top-width: 45px;
           border-bottom-left-radius: 6px;
           border-bottom-right-radius: 6px;
       }
