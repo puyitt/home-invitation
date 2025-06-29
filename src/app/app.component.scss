@@ -23,15 +23,16 @@ img {
 }
 
 @keyframes slideshow {
-  0% { background-image: url('../assets/img1_1.png'); }
-  13% { background-image: url('../assets/img1_2.png'); }
-  26% { background-image: url('../assets/img1_3.png'); }
-  39% { background-image: url('../assets/img1_4.png'); }
-  52% { background-image: url('../assets/img1_5.png'); }
-  65% { background-image: url('../assets/img1_6.png'); }
-  78% { background-image: url('../assets/img1_7.png'); }
-  91% { background-image: url('../assets/img1_8.png'); }
-  100% { background-image: url('../assets/img1_1.png'); }
+  0% { background-image: url('../assets/img1_9.png'); }
+  11% { background-image: url('../assets/img1_1.png'); }
+  22% { background-image: url('../assets/img1_2.png'); }
+  33% { background-image: url('../assets/img1_3.png'); }
+  44% { background-image: url('../assets/img1_4.png'); }
+  55% { background-image: url('../assets/img1_5.png'); }
+  66% { background-image: url('../assets/img1_6.png'); }
+  77% { background-image: url('../assets/img1_7.png'); }
+  88% { background-image: url('../assets/img1_8.png'); }
+  100% { background-image: url('../assets/img1_9.png'); }
 }
 
 #envelope {
@@ -351,6 +352,12 @@ $speed: 2.2s;
   }
 }
 
+.family {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform:translate(-50%,-50%);
+}
 @media screen and (max-width: 720px) {
   .hand {
       width: 50px;
