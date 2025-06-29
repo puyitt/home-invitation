@@ -10,7 +10,7 @@ img {
     justify-content: center;
     background-size: cover;
     background-position: center;
-    animation: slideshow 15s infinite;
+    animation: slideshow 30s infinite;
 
     .overlay {
       position: absolute;
@@ -24,8 +24,13 @@ img {
 
 @keyframes slideshow {
   0% { background-image: url('../assets/img1_1.JPG'); }
-  33% { background-image: url('../assets/img1_3.jpg'); }
-  66% { background-image: url('../assets/img1_2.jpg'); }
+  13% { background-image: url('../assets/img1_2.jpg'); }
+  26% { background-image: url('../assets/img1_3.jpg'); }
+  39% { background-image: url('../assets/img1_4.jpg'); }
+  52% { background-image: url('../assets/img1_5.jpg'); }
+  65% { background-image: url('../assets/img1_6.jpg'); }
+  78% { background-image: url('../assets/img1_7.jpg'); }
+  91% { background-image: url('../assets/img1_8.jpg'); }
   100% { background-image: url('../assets/img1_1.JPG'); }
 }
 
@@ -63,15 +68,15 @@ img {
     border-left: 140px solid transparent;
     border-right: 140px solid transparent;
     border-bottom: 82px solid transparent;
-    border-top: 98px solid #c5c5c5;
+    border-top: 98px solid #e3d7ba;
     transform-origin: top;
     pointer-events: none;
 }
 
 .pocket {
-    border-left: 140px solid #fefefe;
-    border-right: 140px solid #fefefe;
-    border-bottom: 90px solid #e7e7e7;
+    border-left: 140px solid #c7af80;
+    border-right: 140px solid #c7af80;
+    border-bottom: 90px solid #e3d7ba;
     border-top: 90px solid transparent;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
